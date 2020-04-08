@@ -6,28 +6,19 @@
 
 .main-menu li {
     display: inline;
-    flex: 0 0 25%;
-    max-width: 25%;
+    width: 25%;
+    text-align: center;
 }
 
 .main-menu {
     display: flex;
 }
 
-.row {
+.table {
     display: flex;
     margin-top: 60px;
 }
 
-.cl-1 {
-    width: 40%;
-    margin-right: 5%;
-}
-
-.cl-2 {
-    width: 40%;
-    margin-left: 5%;
-}
 
 .img {
     width: 100%;
@@ -65,4 +56,15 @@ button {
 .btn-row {
     width: 100%;
     text-align: center;
+}
+
+.table li {
+    display: inline-block;
+    width: 42%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.table {
+    display: inline-block;
 }
