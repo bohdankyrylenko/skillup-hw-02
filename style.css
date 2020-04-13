@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+
 .content {
     width: 60%;
     margin: 0 auto;
@@ -23,7 +24,8 @@
 }
 
 .img {
-    width: 100%;
+    width: 420px;
+
 }
 
 .category {
@@ -62,13 +64,15 @@ button {
 
 .table li {
     display: inline-block;
-    width: 42%;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 .table {
-    display: inline-block;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
 }
-
-@font-face {}
